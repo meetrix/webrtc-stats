@@ -1,4 +1,4 @@
-import typescript from '@rollup/plugin-typescript'
+import typescript from 'rollup-plugin-typescript2'
 
 import builtins from 'rollup-plugin-node-builtins'
 import babel from 'rollup-plugin-babel'
@@ -9,7 +9,7 @@ import babelConfig from './.babelrc.json'
 
 const plugins = [
   builtins(),
-  typescript(),
+  typescript({ useTsconfigDeclarationDir: true }),
   babel(babelConfig)
 ]
 
