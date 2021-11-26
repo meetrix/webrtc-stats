@@ -3,7 +3,7 @@
   "version": "4.0.0",
   "description": "Library that helps collect and parse webrtc stats.",
   "main": "dist/index.js",
-  "typings": "dist/types/index.d.ts",
+  "typings": "dist/index.d.ts",
   "repository": "https://github.com/peermetrics/webrtc-stats",
   "author": "Andrei Onel <andrei@peermetrics.io>",
   "license": "MIT",
