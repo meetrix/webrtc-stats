@@ -8,6 +8,8 @@ import {
   GetUserMediaResponse, MonitorPeerOptions, ParseStatsOptions, LogLevel
 } from './types/index'
 
+export * from './types/index';
+
 import {parseStats, map2obj} from './utils'
 
 export class WebRTCStats extends EventEmitter {
