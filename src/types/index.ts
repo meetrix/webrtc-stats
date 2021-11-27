@@ -43,7 +43,7 @@ export interface AddPeerOptions {
 export interface GetUserMediaResponse {
     constraints?: MediaStreamConstraints
     stream?: MediaStream
-    error?: DOMError
+    error?: DOMException
 }
 
 export interface MonitoredPeer {
